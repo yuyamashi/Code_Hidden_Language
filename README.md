@@ -6,8 +6,6 @@ Chapter 6. Logic with Switches [[Link](https://codehiddenlanguage.com/Chapter06/
 
 ## Running C Code with Docker
 
-You can use Docker to compile and run the C code examples in this repository without installing a compiler on your local machine.
-
 ### 1. Build the Docker Image
 
 ```sh
@@ -28,6 +26,3 @@ For example, to compile and run the AND logic example:
 gcc chap6_Logic_with_Switches/and.c -o chap6_Logic_with_Switches/and
 ./chap6_Logic_with_Switches/and
 ```
-
-You can do the same for other C files in the `chap6_Logic_with_Switches` directory.
-
