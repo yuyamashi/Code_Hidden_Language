@@ -6,8 +6,7 @@ int series_and(int switch1, int switch2) {
 }
 
 int main() {
-    int switch1 = 1; // 1 = ON, 0 = OFF
-    int switch2 = 1;
+    int switch1 = 1, switch2 = 1;
 
     int bulb = series_and(switch1, switch2);
 

@@ -6,8 +6,7 @@ int parallel_or(int switch1, int switch2) {
 }
 
 int main() {
-    int switch1 = 0; // 1 = ON, 0 = OFF
-    int switch2 = 1;
+    int switch1 = 0, switch2 = 1;
 
     int bulb = parallel_or(switch1, switch2);
 
