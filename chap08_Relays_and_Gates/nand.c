@@ -6,8 +6,7 @@ int nand_gate(int a, int b) {
 }
 
 int main() {
-    int switch1 = 0; // 1 = ON, 0 = OFF
-    int switch2 = 1;
+    int switch1 = 0, switch2 = 1;
 
     int bulb = nand_gate(switch1, switch2);
 

@@ -6,8 +6,7 @@ int or_gate(int a, int b) {
 }
 
 int main() {
-    int switch1 = 1; // 1 = ON, 0 = OFF
-    int switch2 = 1;
+    int switch1 = 1, switch2 = 1;
 
     int bulb = or_gate(switch1, switch2);
 

@@ -6,8 +6,7 @@ int nor_gate(int a, int b) {
 }
 
 int main() {
-    int switch1 = 0; // 1 = ON, 0 = OFF
-    int switch2 = 0;
+    int switch1 = 0, switch2 = 0;
 
     int bulb = nor_gate(switch1, switch2);
     
