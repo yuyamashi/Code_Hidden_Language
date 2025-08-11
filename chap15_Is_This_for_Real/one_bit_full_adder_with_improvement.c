@@ -32,8 +32,8 @@ void half_block2(int input1, int input2, int input3, int *sum, int *carry3) {
 void full_block(int input1, int input2, int carry_in, int *sum, int *carry) {
     int sum1, carry1, carry2, carry3;
     half_block1(input1, input2, &sum1, &carry1, &carry2);
-    half_block2(sum1, carry_in, carry2, sum, &carry3);
-    *carry = or_gate(carry1, carry3);
+    half_block2(sum1, carry_in, carry1, sum, &carry3);
+    *carry = or_gate(carry2, carry3);
 }
 
 int main() {
