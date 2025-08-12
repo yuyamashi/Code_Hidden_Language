@@ -4,4 +4,5 @@ Chapter 06: Logic with Switches [[Link](https://codehiddenlanguage.com/Chapter06
 Chapter 08: Relays and Gates [[Link](https://codehiddenlanguage.com/Chapter08/)]<br>
 Chapter 10: Alternative 10s [[Link](https://codehiddenlanguage.com/Chapter10/)]<br>
 Chapter 14: Adding with Logic Gates [[Link](https://codehiddenlanguage.com/Chapter14/)]<br>
-Chapter 15: Is This for Real? [[Link](https://codehiddenlanguage.com/Chapter15/)]
+Chapter 15: Is This for Real? [[Link](https://codehiddenlanguage.com/Chapter15/)]<br>
+Chapter 16: But What About Subtraction? [[Link](https://codehiddenlanguage.com/Chapter16/)]
