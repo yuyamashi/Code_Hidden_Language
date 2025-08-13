@@ -15,7 +15,7 @@ int main() {
     int bulb6 = input1 && input2 && !input3;    // 110
     int bulb7 = input1 && input2 && input3;     // 111
     
-    // Display results
+    // Show results
     printf("Decoder Outputs:\n");
     printf("Bulb 0: %s\n", bulb0 ? "ON" : "OFF");
     printf("Bulb 1: %s\n", bulb1 ? "ON" : "OFF");

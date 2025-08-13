@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// NAND Gate: AND followed by NOT
+// NAND Gate
 int nand_gate(int a, int b) {
     return !(a && b);
 }

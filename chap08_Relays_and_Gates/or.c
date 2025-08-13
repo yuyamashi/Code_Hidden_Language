@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// OR Gate: Output is 1 if either input is 1
+// OR Gate
 int or_gate(int a, int b) {
     return a || b;
 }

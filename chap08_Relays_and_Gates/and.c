@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// AND Gate: Output is 1 only if both inputs are 1
+// AND Gate
 int and_gate(int a, int b) {
     return a && b;
 }

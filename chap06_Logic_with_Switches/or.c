@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Returns 1 if either switch is ON (parallel/OR), 0 otherwise
+// OR gate
 int parallel_or(int switch1, int switch2) {
     return switch1 || switch2;
 }

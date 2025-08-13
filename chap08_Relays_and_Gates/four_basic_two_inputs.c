@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-// AND Gate: Output is 1 only if both inputs are 1
+// AND Gate
 int and_gate(int a, int b) {
     return a && b;
 }
 
-// OR Gate: Output is 1 if either input is 1
+// OR Gate
 int or_gate(int a, int b) {
     return a || b;
 }
 
-// NAND Gate: AND followed by NOT
+// NAND Gate
 int nand_gate(int a, int b) {
     return !(a && b);
 }
 
-// NOR Gate: OR followed by NOT
+// NOR Gate
 int nor_gate(int a, int b) {
     return !(a || b);
 }

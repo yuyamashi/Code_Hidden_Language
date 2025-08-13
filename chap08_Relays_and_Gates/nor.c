@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// NOR Gate: OR followed by NOT
+// NOR Gate
 int nor_gate(int a, int b) {
     return !(a || b);
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Returns 1 if both switches are ON (series/AND), 0 otherwise
+// And gate
 int series_and(int switch1, int switch2) {
     return switch1 && switch2;
 }
