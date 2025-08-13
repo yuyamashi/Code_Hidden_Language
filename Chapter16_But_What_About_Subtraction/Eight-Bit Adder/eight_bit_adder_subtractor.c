@@ -1,24 +1,11 @@
 #include <stdio.h>
 
-// NAND gate
-int nand_gate(int input1, int input2) {
-    return !(input1 && input2);
-}
-
-// AND gate
-int and_gate(int input1, int input2) {
-    return input1 && input2;
-}
-
-// OR gate
-int or_gate(int input1, int input2) {
-    return input1 || input2;
-}
-
 // Function to calculate sum and carry for half adder
 void half_block(int input1, int input2, int *sum, int *carry) {
-    *sum = and_gate(or_gate(input1, input2), nand_gate(input1, input2));
-    *carry = and_gate(input1, input2);
+    int gate1 = input1 || input2;
+    int gate2 = !(input1 && input2);
+    *sum = gate1 && gate2;
+    *carry = input1 && input2;
 }
 
 // Function to calculate sum and carry for full adder
@@ -26,7 +13,7 @@ void full_block(int input1, int input2, int carry_in, int *sum, int *carry) {
     int sum1, carry1, carry2;
     half_block(input1, input2, &sum1, &carry1);
     half_block(sum1, carry_in, sum, &carry2);
-    *carry = or_gate(carry1, carry2);
+    *carry = carry1 || carry2;
 }
 
 // Function to calculate sum and carry for eight bit adder
@@ -40,8 +27,8 @@ void eight_bit_adder(int a[8], int b[8], int carry_in, int sum[8], int *carry_ou
 
 // Main function to test the eight bit adder
 int main() {
-    int a[8] = {1, 0, 1, 0, 0, 0, 1, 0};
-    int b[8] = {1, 0, 0, 1, 1, 1, 1, 0};
+    int a[8] = {1, 0, 1, 0, 1, 0, 1, 0};
+    int b[8] = {1, 0, 0, 1, 1, 0, 1, 0};
 
     int sum[8], carry;
     eight_bit_adder(a, b, 0, sum, &carry);
