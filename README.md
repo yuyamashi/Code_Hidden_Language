@@ -1,4 +1,4 @@
-# CODE: The Hidden Language of Computer Hardware and Software [[text](https://codehiddenlanguage.com/)]
+# CODE: The Hidden Language of Computer Hardware and Software [[Book](https://codehiddenlanguage.com/)]
 
 - Chapter 06: Logic with Switches [[text](https://codehiddenlanguage.com/Chapter06/)] [[code](chap06)]
 - Chapter 08: Relays and Gates [[text](https://codehiddenlanguage.com/Chapter08/)] [[code](chap08)]
